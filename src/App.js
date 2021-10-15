@@ -82,7 +82,6 @@ const App = () => {
     }
 
     setBottomList(new Array(tempList.length === 0 ? 2 : tempList.length === 11 ? 11 : tempList.length + 1).fill(0));
-
     setArrList(tempList.length > 10 ? newList.map(item => item.id === checkList[0].id ? { id: item.id, status: false } : item) : newList);
   }
 
@@ -102,6 +101,7 @@ const App = () => {
     setAnimation(true);
     setTimeout(() => {
       setAnimation(false);
+      initArray();
     }, 3500);
   }
 
