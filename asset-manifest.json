@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.192df469.chunk.css",
+    "main.js": "/static/js/main.48a8da78.chunk.js",
+    "main.js.map": "/static/js/main.48a8da78.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.85c96121.js",
+    "runtime-main.js.map": "/static/js/runtime-main.85c96121.js.map",
+    "static/css/2.28bb0c3d.chunk.css": "/static/css/2.28bb0c3d.chunk.css",
+    "static/js/2.6dae88b8.chunk.js": "/static/js/2.6dae88b8.chunk.js",
+    "static/js/2.6dae88b8.chunk.js.map": "/static/js/2.6dae88b8.chunk.js.map",
+    "static/js/3.657878c9.chunk.js": "/static/js/3.657878c9.chunk.js",
+    "static/js/3.657878c9.chunk.js.map": "/static/js/3.657878c9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.28bb0c3d.chunk.css.map": "/static/css/2.28bb0c3d.chunk.css.map",
+    "static/css/main.192df469.chunk.css.map": "/static/css/main.192df469.chunk.css.map",
+    "static/js/2.6dae88b8.chunk.js.LICENSE.txt": "/static/js/2.6dae88b8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/expand_more_white_24dp.af5969e8.svg",
+    "static/media/keno_top_logo.d1df5670.png": "/static/media/keno_top_logo.d1df5670.png",
+    "static/media/orange-lose-final.6a70cea4.gif": "/static/media/orange-lose-final.6a70cea4.gif",
+    "static/media/orange-win-final.211a8757.gif": "/static/media/orange-win-final.211a8757.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85c96121.js",
+    "static/css/2.28bb0c3d.chunk.css",
+    "static/js/2.6dae88b8.chunk.js",
+    "static/css/main.192df469.chunk.css",
+    "static/js/main.48a8da78.chunk.js"
+  ]
+}
