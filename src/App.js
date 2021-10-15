@@ -51,9 +51,12 @@ const App = () => {
     }
     setArrList(tempList);
     setCheckList([]);
+    setBottomList(new Array(2).fill(0));
   }
 
   const onItem = (p) => {
+    if (animation) return;
+
     const newList = [];
     const tempList = [];
 
@@ -86,7 +89,7 @@ const App = () => {
   }
 
   const onPlay = (item) => {
-    if (item.status) return;
+    if (item.status || animation) return;
     setArrList(item.list);
     setRatingList(list => list.map(i => {
       const temp = i;
@@ -106,7 +109,7 @@ const App = () => {
   }
 
   const onBet = () => {
-    if (checkList.length === 0) return;
+    if (checkList.length === 0 || animation) return;
 
     setAmount(item => item += 0.5);
     setRatingList(item => [{ id: item.length + 1, status: false, value: checkList.length + "/10, " + earn + ", 1/" + checkList.length, result: "???", list: arrList }].concat(item));
